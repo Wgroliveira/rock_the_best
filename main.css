@@ -1,0 +1,107 @@
+body{
+    background-color: bisque;
+    font-family:'Bruno Ace SC', cursive;
+}
+
+#letra{
+    font-size: 80px;
+}
+
+.navbar{
+    background-image: url(./Image/Body/rolll.jpg);
+    background-repeat: no-repeat;
+}
+
+.nav .nav-link.active{
+    background-color: bisque;
+}
+
+.imagem-sem-hover{
+    pointer-events: none;
+}
+
+.nav-link{
+    font-size: 12px;
+}
+
+.nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover{
+    color: #FF0000;
+}
+
+.navbar-toggler{
+    background-color: bisque;
+}
+
+.section-title{
+    font-family:'Racing Sans One', cursive;
+    font-size: 60px;
+}
+
+footer{
+    text-align: center;
+}
+
+.text-colored{
+    color: #FF0000;
+}
+
+h2{
+    color: #FF0000;
+}
+
+p{
+    color: #000;
+}
+
+
+
+.nav-bandas .nav-link.active,
+#fale-conosco button{
+   background-color:  #FF0000;
+   color: bisque;
+}   
+
+.nav-bandas .nav-link:hover{
+    color: #FF0000;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.card:hover{
+    opacity: 0.7;
+    scale: 1.1;
+}
+
+img:hover{
+    opacity: 0.7;
+    scale: 1.1;
+}
+
+textarea{
+    resize: none;
+    min-height: 100px; 
+    max-height: 300px; 
+      
+}
+
+@media (max-width:767px){
+    .carousel-item img{
+        height: 208px;
+    }
+}
+
+
+
+
+
+ 

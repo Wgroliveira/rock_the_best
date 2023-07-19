@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock the Best</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+     <!-- Início do Cabeçalho e barra de navegação -->
+    <header class="navbar navbar-expand-lg sticky-top p-4">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title" id="letra">Rock the Best</h1>
+            <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#menu=navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu=navegacao">
+                <ul class=" nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#nossa-loja" class="nav-link">
+                            <i class="bi bi-bookmarks-fill"></i>
+                            Nossa Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#bandas" class="nav-link">
+                            <i class="bi bi-vinyl-fill"></i> 
+                            Bandas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <!-- Final do cabeçalho e barra de navegação -->
+   
+
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+
+        <!-- Início do Carrossel -->
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="imagem-sem-hover" src="./Image/Slides/legends_rock.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="imagem-sem-hover" src="./Image/Slides/logo_dio.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="imagem-sem-hover" src="./Image/Slides/rock_billy.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="imagem-sem-hover" src="./Image/Slides/rock_logos.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="imagem-sem-hover" src="./Image/Slides/rock_poison.png" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+               <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="butto"  data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+               </div>
+            </div>
+        </section>
+        <!-- Final do Carrossel-->
+
+        <!-- Início da Loja-->
+        <section id="nossa-loja" class="pt-5 pb-5">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 mt-4">
+                    Nossa Loja
+                </h2>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Linkin Park</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/camiseta-banda-de-rock-rollingst.png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Rolling Stones</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/camiseta-banda-de-rock-rollingst.png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta AC_DC</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/D_NQ_NP_830214-MLB54310272730_03.png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Iron Maiden</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/images (1).png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Kiss</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/images (2).png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Slipknot</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/images.png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Slayer</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/LONG028_2022-05-19_17_00_43_0_LO.png" alt="">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="card mt-3 mb-3">
+                            <header>Camiseta Guns'n Roses</header>
+                            <img class="imagem-sem-hover" src="./Image/Loja/TD005_2022-08-04_17_00_13_0_TD00.png"">
+                            <footer>R$59,90</footer>
+                            <button>Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Final da Loja-->
+      
+    
+        <!-- Início do menu Bandas -->
+        <section id="bandas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Bandas
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-bandas">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bandas-nacionais" class="fw-bold text-start nav-link text-colored active">Bandas Nacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bandas-internacionais" class="fw-bold text-start nav-link text-colored">Bandas Internacionais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#logo-de-bandas" class="fw-bold text-start nav-link text-colored">Logo de Bandas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bandas-nacionais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Biquini Cavadão.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Biquini Cavadão</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Capital Inicial.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Capital Inicial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Charlie Brown.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Charlie Brown Jr.</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Engenheiros do Havaii.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Engenheiros do Havaii</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Legião Urbana.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Legião Urbana</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/orappa.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">O Rappa</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/RPM.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">RPM</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./Image/Bandas Nacionais/Titãs.png" alt="">
+                                        <h5 class="text-colored fw-bold mt-2">Titãs</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                            <div class="tab-content">
+                                <div class="tab-pane" id="bandas-internacionais">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/5finger.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2"> Five Finger Death Punch</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/ACDC-Images.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">AC DC</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/Black Sabbath.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Black Sabbath</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/blacklabel.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Blacklabel Society</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/greta van fleet.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Greta van Fleet</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/Scorpions.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Scorpions</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/The Doors.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">The Doors</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Bandas Internacionais/U2.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2"><U2/h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-content">
+                                <div class="tab-pane" id="logo-de-bandas">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/led.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2"> Led Zeppelin</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_aerosmith.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Aerosmith</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_aliceinchains.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2"> Alice in Chains</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_gunsnroses.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Guns' n Roses</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_linkinpark.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Linkin Park</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_ramones.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Ramones</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_rollingstones.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Rolling Stones</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="./Image/Logos/logo_vanhalen.png"alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Van Halen</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>    
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <!-- Final do menu Bandas-->
+
+        <!-- Começo do Formulário-->
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale conosco
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5" id="fale-conosco" class="pt-5 pb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" name="nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="e-mail" class="form-control" name="email">
+                            </div>
+                            <div class="form-campo mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" name="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" ></textarea>                           
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>  
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li> 
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3  class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>  Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>                            
+                </div>
+            </div>
+        </section>
+
+        <!-- Final do Formulário-->
+    </div>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
